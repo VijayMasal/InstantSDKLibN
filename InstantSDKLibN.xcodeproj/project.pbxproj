@@ -458,6 +458,10 @@
 				INFOPLIST_FILE = InstantSDKLibN/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lsqlite3",
+					"-lz",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = vijay.InstantSDKLibN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -478,6 +482,10 @@
 				INFOPLIST_FILE = InstantSDKLibN/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lsqlite3",
+					"-lz",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = vijay.InstantSDKLibN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -526,6 +534,7 @@
 				03F41E441FE28F10004D26E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03F41E451FE28F10004D26E0 /* Build configuration list for PBXNativeTarget "InstantSDKLibNTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +543,7 @@
 				03F41E471FE28F10004D26E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
