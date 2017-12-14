@@ -10,6 +10,27 @@
 		03F41E381FE28F0F004D26E0 /* InstantSDKLibN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F41E2E1FE28F0D004D26E0 /* InstantSDKLibN.framework */; };
 		03F41E3D1FE28F0F004D26E0 /* InstantSDKLibNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F41E3C1FE28F0F004D26E0 /* InstantSDKLibNTests.m */; };
 		03F41E3F1FE28F10004D26E0 /* InstantSDKLibN.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F41E311FE28F0E004D26E0 /* InstantSDKLibN.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F41E4C1FE28F94004D26E0 /* InstantDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F41E4A1FE28F94004D26E0 /* InstantDataBase.m */; };
+		03F41E501FE28FB0004D26E0 /* LocationNameAndTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F41E4E1FE28FB0004D26E0 /* LocationNameAndTime.m */; };
+		03F41E551FE28FEB004D26E0 /* SleepManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F41E531FE28FEB004D26E0 /* SleepManager.m */; };
+		03F41E5A1FE29011004D26E0 /* ActivityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F41E581FE29011004D26E0 /* ActivityManager.m */; };
+		03F41E5E1FE29027004D26E0 /* StepsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F41E5C1FE29027004D26E0 /* StepsManager.m */; };
+		03F41E631FE29050004D26E0 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F41E611FE29050004D26E0 /* LocationManager.m */; };
+		03F41E691FE29099004D26E0 /* UIDevice+PasscodeStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F41E671FE29099004D26E0 /* UIDevice+PasscodeStatus.m */; };
+		03F41E6D1FE290AD004D26E0 /* DeviceUsageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F41E6B1FE290AD004D26E0 /* DeviceUsageManager.m */; };
+		03F41E701FE290CF004D26E0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F41E6F1FE290CF004D26E0 /* Security.framework */; };
+		03F41E721FE290D6004D26E0 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F41E711FE290D6004D26E0 /* HealthKit.framework */; };
+		03F41E741FE290DD004D26E0 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F41E731FE290DD004D26E0 /* CoreMotion.framework */; };
+		03F41E761FE290E7004D26E0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F41E751FE290E7004D26E0 /* CoreLocation.framework */; };
+		03F41E781FE290F3004D26E0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F41E771FE290F3004D26E0 /* libsqlite3.tbd */; };
+		03F41E791FE29165004D26E0 /* InstantDataBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F41E491FE28F94004D26E0 /* InstantDataBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F41E7A1FE29169004D26E0 /* LocationNameAndTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F41E4D1FE28FB0004D26E0 /* LocationNameAndTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F41E7B1FE2916F004D26E0 /* SleepManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F41E521FE28FEB004D26E0 /* SleepManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F41E7C1FE29174004D26E0 /* ActivityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F41E571FE29011004D26E0 /* ActivityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F41E7D1FE29179004D26E0 /* StepsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F41E5B1FE29027004D26E0 /* StepsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F41E7E1FE2918B004D26E0 /* LocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F41E601FE29050004D26E0 /* LocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F41E7F1FE29191004D26E0 /* UIDevice+PasscodeStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F41E661FE29099004D26E0 /* UIDevice+PasscodeStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F41E801FE29194004D26E0 /* DeviceUsageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F41E6A1FE290AD004D26E0 /* DeviceUsageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +50,27 @@
 		03F41E371FE28F0F004D26E0 /* InstantSDKLibNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantSDKLibNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F41E3C1FE28F0F004D26E0 /* InstantSDKLibNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstantSDKLibNTests.m; sourceTree = "<group>"; };
 		03F41E3E1FE28F0F004D26E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F41E491FE28F94004D26E0 /* InstantDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstantDataBase.h; sourceTree = "<group>"; };
+		03F41E4A1FE28F94004D26E0 /* InstantDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstantDataBase.m; sourceTree = "<group>"; };
+		03F41E4D1FE28FB0004D26E0 /* LocationNameAndTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationNameAndTime.h; sourceTree = "<group>"; };
+		03F41E4E1FE28FB0004D26E0 /* LocationNameAndTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationNameAndTime.m; sourceTree = "<group>"; };
+		03F41E521FE28FEB004D26E0 /* SleepManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepManager.h; sourceTree = "<group>"; };
+		03F41E531FE28FEB004D26E0 /* SleepManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepManager.m; sourceTree = "<group>"; };
+		03F41E571FE29011004D26E0 /* ActivityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityManager.h; sourceTree = "<group>"; };
+		03F41E581FE29011004D26E0 /* ActivityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityManager.m; sourceTree = "<group>"; };
+		03F41E5B1FE29027004D26E0 /* StepsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepsManager.h; sourceTree = "<group>"; };
+		03F41E5C1FE29027004D26E0 /* StepsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepsManager.m; sourceTree = "<group>"; };
+		03F41E601FE29050004D26E0 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		03F41E611FE29050004D26E0 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		03F41E661FE29099004D26E0 /* UIDevice+PasscodeStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+PasscodeStatus.h"; sourceTree = "<group>"; };
+		03F41E671FE29099004D26E0 /* UIDevice+PasscodeStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+PasscodeStatus.m"; sourceTree = "<group>"; };
+		03F41E6A1FE290AD004D26E0 /* DeviceUsageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceUsageManager.h; sourceTree = "<group>"; };
+		03F41E6B1FE290AD004D26E0 /* DeviceUsageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceUsageManager.m; sourceTree = "<group>"; };
+		03F41E6F1FE290CF004D26E0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		03F41E711FE290D6004D26E0 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		03F41E731FE290DD004D26E0 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		03F41E751FE290E7004D26E0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		03F41E771FE290F3004D26E0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +78,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F41E781FE290F3004D26E0 /* libsqlite3.tbd in Frameworks */,
+				03F41E761FE290E7004D26E0 /* CoreLocation.framework in Frameworks */,
+				03F41E741FE290DD004D26E0 /* CoreMotion.framework in Frameworks */,
+				03F41E721FE290D6004D26E0 /* HealthKit.framework in Frameworks */,
+				03F41E701FE290CF004D26E0 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +103,7 @@
 				03F41E301FE28F0D004D26E0 /* InstantSDKLibN */,
 				03F41E3B1FE28F0F004D26E0 /* InstantSDKLibNTests */,
 				03F41E2F1FE28F0D004D26E0 /* Products */,
+				03F41E6E1FE290CF004D26E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +119,11 @@
 		03F41E301FE28F0D004D26E0 /* InstantSDKLibN */ = {
 			isa = PBXGroup;
 			children = (
+				03F41E641FE29081004D26E0 /* Phone Usage */,
+				03F41E5F1FE2903C004D26E0 /* Location */,
+				03F41E561FE28FF1004D26E0 /* FitnessActivity */,
+				03F41E511FE28FD0004D26E0 /* Sleep */,
+				03F41E481FE28F67004D26E0 /* DataBase */,
 				03F41E311FE28F0E004D26E0 /* InstantSDKLibN.h */,
 				03F41E321FE28F0E004D26E0 /* Info.plist */,
 			);
@@ -86,6 +139,69 @@
 			path = InstantSDKLibNTests;
 			sourceTree = "<group>";
 		};
+		03F41E481FE28F67004D26E0 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				03F41E491FE28F94004D26E0 /* InstantDataBase.h */,
+				03F41E4A1FE28F94004D26E0 /* InstantDataBase.m */,
+				03F41E4D1FE28FB0004D26E0 /* LocationNameAndTime.h */,
+				03F41E4E1FE28FB0004D26E0 /* LocationNameAndTime.m */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		03F41E511FE28FD0004D26E0 /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				03F41E521FE28FEB004D26E0 /* SleepManager.h */,
+				03F41E531FE28FEB004D26E0 /* SleepManager.m */,
+			);
+			name = Sleep;
+			sourceTree = "<group>";
+		};
+		03F41E561FE28FF1004D26E0 /* FitnessActivity */ = {
+			isa = PBXGroup;
+			children = (
+				03F41E571FE29011004D26E0 /* ActivityManager.h */,
+				03F41E581FE29011004D26E0 /* ActivityManager.m */,
+				03F41E5B1FE29027004D26E0 /* StepsManager.h */,
+				03F41E5C1FE29027004D26E0 /* StepsManager.m */,
+			);
+			name = FitnessActivity;
+			sourceTree = "<group>";
+		};
+		03F41E5F1FE2903C004D26E0 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				03F41E601FE29050004D26E0 /* LocationManager.h */,
+				03F41E611FE29050004D26E0 /* LocationManager.m */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		03F41E641FE29081004D26E0 /* Phone Usage */ = {
+			isa = PBXGroup;
+			children = (
+				03F41E661FE29099004D26E0 /* UIDevice+PasscodeStatus.h */,
+				03F41E671FE29099004D26E0 /* UIDevice+PasscodeStatus.m */,
+				03F41E6A1FE290AD004D26E0 /* DeviceUsageManager.h */,
+				03F41E6B1FE290AD004D26E0 /* DeviceUsageManager.m */,
+			);
+			name = "Phone Usage";
+			sourceTree = "<group>";
+		};
+		03F41E6E1FE290CF004D26E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03F41E771FE290F3004D26E0 /* libsqlite3.tbd */,
+				03F41E751FE290E7004D26E0 /* CoreLocation.framework */,
+				03F41E731FE290DD004D26E0 /* CoreMotion.framework */,
+				03F41E711FE290D6004D26E0 /* HealthKit.framework */,
+				03F41E6F1FE290CF004D26E0 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +210,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				03F41E3F1FE28F10004D26E0 /* InstantSDKLibN.h in Headers */,
+				03F41E791FE29165004D26E0 /* InstantDataBase.h in Headers */,
+				03F41E7B1FE2916F004D26E0 /* SleepManager.h in Headers */,
+				03F41E801FE29194004D26E0 /* DeviceUsageManager.h in Headers */,
+				03F41E7E1FE2918B004D26E0 /* LocationManager.h in Headers */,
+				03F41E7F1FE29191004D26E0 /* UIDevice+PasscodeStatus.h in Headers */,
+				03F41E7D1FE29179004D26E0 /* StepsManager.h in Headers */,
+				03F41E7C1FE29174004D26E0 /* ActivityManager.h in Headers */,
+				03F41E7A1FE29169004D26E0 /* LocationNameAndTime.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F41E631FE29050004D26E0 /* LocationManager.m in Sources */,
+				03F41E5A1FE29011004D26E0 /* ActivityManager.m in Sources */,
+				03F41E501FE28FB0004D26E0 /* LocationNameAndTime.m in Sources */,
+				03F41E5E1FE29027004D26E0 /* StepsManager.m in Sources */,
+				03F41E551FE28FEB004D26E0 /* SleepManager.m in Sources */,
+				03F41E4C1FE28F94004D26E0 /* InstantDataBase.m in Sources */,
+				03F41E691FE29099004D26E0 /* UIDevice+PasscodeStatus.m in Sources */,
+				03F41E6D1FE290AD004D26E0 /* DeviceUsageManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = PGZA933APV;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -331,6 +464,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vijay.InstantSDKLibN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -339,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = PGZA933APV;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -349,6 +484,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vijay.InstantSDKLibN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
