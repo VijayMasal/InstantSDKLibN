@@ -22,7 +22,6 @@
 		03F41E721FE290D6004D26E0 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F41E711FE290D6004D26E0 /* HealthKit.framework */; };
 		03F41E741FE290DD004D26E0 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F41E731FE290DD004D26E0 /* CoreMotion.framework */; };
 		03F41E761FE290E7004D26E0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F41E751FE290E7004D26E0 /* CoreLocation.framework */; };
-		03F41E781FE290F3004D26E0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F41E771FE290F3004D26E0 /* libsqlite3.tbd */; };
 		03F41E791FE29165004D26E0 /* InstantDataBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F41E491FE28F94004D26E0 /* InstantDataBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03F41E7A1FE29169004D26E0 /* LocationNameAndTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F41E4D1FE28FB0004D26E0 /* LocationNameAndTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03F41E7B1FE2916F004D26E0 /* SleepManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F41E521FE28FEB004D26E0 /* SleepManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -70,7 +69,6 @@
 		03F41E711FE290D6004D26E0 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		03F41E731FE290DD004D26E0 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		03F41E751FE290E7004D26E0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		03F41E771FE290F3004D26E0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03F41E781FE290F3004D26E0 /* libsqlite3.tbd in Frameworks */,
 				03F41E761FE290E7004D26E0 /* CoreLocation.framework in Frameworks */,
 				03F41E741FE290DD004D26E0 /* CoreMotion.framework in Frameworks */,
 				03F41E721FE290D6004D26E0 /* HealthKit.framework in Frameworks */,
@@ -193,7 +190,6 @@
 		03F41E6E1FE290CF004D26E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				03F41E771FE290F3004D26E0 /* libsqlite3.tbd */,
 				03F41E751FE290E7004D26E0 /* CoreLocation.framework */,
 				03F41E731FE290DD004D26E0 /* CoreMotion.framework */,
 				03F41E711FE290D6004D26E0 /* HealthKit.framework */,
