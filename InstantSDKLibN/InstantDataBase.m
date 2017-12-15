@@ -38,6 +38,7 @@ static InstantDataBase* sharedInstantDataBase=nil;
     return self;
 }
 
+/*
 -(LocationNameAndTime *)checkPermissionFlags
 {
     
@@ -137,9 +138,8 @@ static InstantDataBase* sharedInstantDataBase=nil;
 
 
 
-/*
- *@discussion Checks all feature flags
- */
+// Checks all feature flags
+ 
 -(LocationNameAndTime *)checkFeatureEnableFlags
 {
     BOOL phoneUsageFeature=[[NSUserDefaults standardUserDefaults]boolForKey:@"phoneUsageEnable"];
@@ -808,16 +808,16 @@ static InstantDataBase* sharedInstantDataBase=nil;
 -(void)fitBitPermissions:(void(^)(BOOL fitBitPermission))PermissionHandler
 {
     
-   // if (@available(iOS 9.0, *)) {
+    if (@available(iOS 9.0, *)) {
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.fitbit.com/oauth2/authorize?response_type=token&client_id=228LXP&redirect_uri=http%3A%2F%2Femberify.com%2Ffitbit1.html&scope=activity%20profile%20sleep&expires_in=604800"]];
         
-   /* }
+}
     else
     {
         
         
         [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"http://www.fitbit.com/oauth2/authorize?response_type=token&client_id=228LXP&redirect_uri=http%3A%2F%2Femberify.com%2Ffitbit1.html&scope=activity%20profile%20sleep&expires_in=604800"] options:@{} completionHandler:nil];
-    }*/
+    }
     
     PermissionHandler(YES);
 }
@@ -1570,7 +1570,9 @@ static InstantDataBase* sharedInstantDataBase=nil;
     
     sqlite3_close(instantDB);
     
-}
+}*/
+
+
 
 @end
 

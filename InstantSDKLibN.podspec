@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
  
 
   s.name         = "InstantSDKLibN"
-  s.version      = "2.3"
+  s.version      = "2.4"
   s.summary      = "A short description of InstantSDKLibN."
 
  
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
    s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/VijayMasal/InstantSDKLibN.git", :tag => "2.3" }
+  s.source       = { :git => "https://github.com/VijayMasal/InstantSDKLibN.git", :tag => "2.4" }
 
   s.source_files  = "InstantSDKLibN", "InstantSDKLibN/**/*.{h,m}"
   

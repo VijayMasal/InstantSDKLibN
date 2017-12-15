@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		03B412C21FE2B0B4006287CD /* InstantSDKLibNTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 03F41E371FE28F0F004D26E0 /* InstantSDKLibNTests.xctest */; };
-		03E80EAE1FE3953B008C808B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E80EAD1FE3953B008C808B /* libsqlite3.tbd */; };
 		03F41E381FE28F0F004D26E0 /* InstantSDKLibN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F41E2E1FE28F0D004D26E0 /* InstantSDKLibN.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		03F41E3D1FE28F0F004D26E0 /* InstantSDKLibNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F41E3C1FE28F0F004D26E0 /* InstantSDKLibNTests.m */; };
 		03F41E3F1FE28F10004D26E0 /* InstantSDKLibN.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F41E311FE28F0E004D26E0 /* InstantSDKLibN.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,7 +44,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03E80EAD1FE3953B008C808B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		03F41E2E1FE28F0D004D26E0 /* InstantSDKLibN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InstantSDKLibN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F41E311FE28F0E004D26E0 /* InstantSDKLibN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstantSDKLibN.h; sourceTree = "<group>"; };
 		03F41E321FE28F0E004D26E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03E80EAE1FE3953B008C808B /* libsqlite3.tbd in Frameworks */,
 				03F41E761FE290E7004D26E0 /* CoreLocation.framework in Frameworks */,
 				03F41E741FE290DD004D26E0 /* CoreMotion.framework in Frameworks */,
 				03F41E721FE290D6004D26E0 /* HealthKit.framework in Frameworks */,
@@ -194,7 +191,6 @@
 		03F41E6E1FE290CF004D26E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				03E80EAD1FE3953B008C808B /* libsqlite3.tbd */,
 				03F41E751FE290E7004D26E0 /* CoreLocation.framework */,
 				03F41E731FE290DD004D26E0 /* CoreMotion.framework */,
 				03F41E711FE290D6004D26E0 /* HealthKit.framework */,
